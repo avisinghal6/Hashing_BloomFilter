@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt;
 import sys;
 
 random.seed(2315); 
-data = pd.read_csv('/Users/avisinghal/Desktop/Rice Sem1/COMP 580/HW1/user-ct-test-collection-01.txt', sep="\t")
+data = pd.read_csv('/Users/avisinghal/Desktop/Rice Sem1/COMP 580/HW1/user-ct-test-collection-01-1.txt', sep="\t")
 urllist = data.ClickURL.dropna().unique();
 class BloomFilter():
 

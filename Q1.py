@@ -19,7 +19,7 @@ c=random.randint(start, end);
 d=random.randint(start, end);
 P=1048573;
 
-print(a,b,c,d)
+# print(a,b,c,d)
 
 
 # a=449874;
@@ -146,4 +146,4 @@ plt.ylabel('Output bits',size=10)
 plt.plot();
 sns.heatmap(dfym.T,fmt=".1f",annot=True,linewidths=2,square=True,cmap='twilight', vmin=0.5, vmax=0.5);
 
-# plt.show()
+plt.show()
